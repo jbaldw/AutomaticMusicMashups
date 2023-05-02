@@ -18,3 +18,17 @@
 #submit-btn {
     margin: 10px 0;
 }
+
+/* Centers the output containers */
+#output-containers {
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+}
+
+/* Centers the submit confirmation text */
+#confirmation-container {
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+}

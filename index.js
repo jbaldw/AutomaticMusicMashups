@@ -31,12 +31,19 @@ app.get('/', (req, res) => {
 // Route to perform separation of mp3 file
 app.post('/upload', upload.any('songs') , (req, res) => {
     // Run python script to separate the two mp3 files
-    PythonShell.run(path.join(__dirname, 'public', 'python', 'separate.py'), null, function (err) {
+    PythonShell.run(path.join(__dirname, 'public', 'python', 'separate.py'), null, (err) => {
         if(err) {
             throw err;
         }
     }).then(() => {
-        res.send('Files successfully uploaded and separated!');
+        // Run python script to vocode the two mp3 files
+        PythonShell.run(path.join(__dirname, 'public', 'python', 'vocode_songs.py'), null, (err) => {
+            if(err) {
+                throw err;
+            }
+        }).then(() => {
+            res.send('Success');
+        });
     }).catch((err) => {
         console.log(err);
     });
