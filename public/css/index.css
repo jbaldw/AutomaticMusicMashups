@@ -1,0 +1,20 @@
+#site-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Centers the upload container */
+#upload-container {
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+}
+
+/* Adjusts the submit button margins */
+#submit-btn {
+    margin: 10px 0;
+}
