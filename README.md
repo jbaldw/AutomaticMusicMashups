@@ -39,4 +39,4 @@
 
 # Web Application
 ### Live Demo
-http://www.vocodetwosongs.com
+http://vocodetwosongs.com
