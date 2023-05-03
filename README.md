@@ -4,7 +4,7 @@
   <h3 align="center">Automatic Music Mashups</h3>
 
   <p align="center">
-    Mashing Up Song by Vocoding
+    Mashing Up Songs by Vocoding
   </p>
 </div>
 
