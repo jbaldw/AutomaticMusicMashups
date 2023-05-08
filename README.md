@@ -43,5 +43,5 @@
 6. Navigate to localhost:8080
 
 # Web Application
-### Live Demo (will be slow)
+### Live Demo (will be slow, up to 5 minutes)
 http://vocodetwosongs.com
