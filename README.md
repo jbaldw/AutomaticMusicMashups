@@ -23,7 +23,11 @@
    ```sh
    git clone https://github.com/jbaldw/MusicInformaticsFinal.git
    ```
-2. Install NPM packages
+2. Navigate to Root Directory
+   ```sh
+   cd MusicInformaticsFinal
+   ```
+2. Install NPM Packages
    ```sh
    npm install
    ```
