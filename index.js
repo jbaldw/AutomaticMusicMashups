@@ -30,6 +30,8 @@ app.get('/', (req, res) => {
 
 // Route to perform separation of mp3 file
 app.post('/upload', upload.any('songs') , (req, res) => {
+    req.setTimeout(1000 * 1000);
+    
     // Run python script to separate the two mp3 files
     PythonShell.run(path.join(__dirname, 'public', 'python', 'separate.py'), null, (err) => {
         if(err) {
