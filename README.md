@@ -45,9 +45,9 @@
    ```
 6. Start Audacity
 7. Ensure Audacity's mod-script-pipe is Enabled
-```sh
-https://manual.audacityteam.org/man/scripting.html
-```
+   ```html
+   https://manual.audacityteam.org/man/scripting.html
+   ```
 8. Restart Audacity if Necessary
 9. Navigate to localhost:8080
 
