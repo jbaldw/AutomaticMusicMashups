@@ -33,6 +33,7 @@
    pip install ffmpeg-python
    pip install librosa
    pip install numpy
+   pip install soundfile
    ```
 4. Start Application
    ```js
