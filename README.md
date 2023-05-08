@@ -27,11 +27,11 @@
    ```sh
    cd MusicInformaticsFinal
    ```
-2. Install NPM Packages
+3. Install NPM Packages
    ```sh
    npm install
    ```
-3. Install Python Dependencies
+4. Install Python Dependencies
    ```sh
    pip install spleeter
    pip install ffmpeg-python
@@ -39,12 +39,17 @@
    pip install numpy
    pip install soundfile
    ```
-4. Start Application
+5. Start Application
    ```js
    npm start
    ```
-5. Start Audacity
-6. Navigate to localhost:8080
+6. Start Audacity
+7. Ensure Audacity's mod-script-pipe is Enabled
+```sh
+https://manual.audacityteam.org/man/scripting.html
+```
+8. Restart Audacity if Necessary
+9. Navigate to localhost:8080
 
 # Web Application
 ### Live Demo (will be slow, up to 5 minutes)
