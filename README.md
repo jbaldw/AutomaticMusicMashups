@@ -11,10 +11,12 @@
 # Running Locally
 <!-- GETTING STARTED -->
 ### Prerequisites
+* Windows or Linux
 * Node.js
 * npm
 * Python
 * pip
+* Audacity
 
 ### Installation
 1. Clone the repo
@@ -36,6 +38,8 @@
    ```js
    npm start
    ```
+5. Start Audacity
+6. Navigate to localhost:8080
 
 # Web Application
 ### Live Demo
